@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 244382400}
   - component: {fileID: 244382399}
   m_Layer: 0
-  m_Name: Point Light (2)
+  m_Name: Street Lamp 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,7 +320,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -336,11 +336,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244382398}
   m_LocalRotation: {x: 0.4892952, y: -0.51048034, z: 0.51048034, w: 0.4892952}
-  m_LocalPosition: {x: -55.48, y: 6.37, z: 0.79}
+  m_LocalPosition: {x: -55.48, y: 6.28, z: 0.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 92.428}
 --- !u!1 &294568208
 GameObject:
@@ -366,14 +366,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294568208}
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -31.69, y: 5.908, z: 8.976}
+  m_LocalPosition: {x: 16.99, y: -0.30700016, z: 10.535}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_Children:
   - {fileID: 3086137076267204407}
   - {fileID: 3086137076267204409}
   - {fileID: 3086137076267204415}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1574944313}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
 --- !u!1001 &329579272
 PrefabInstance:
@@ -384,7 +384,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100008, guid: 16cc470288792004a9123c2bbd7d6405, type: 3}
       propertyPath: m_Name
-      value: sscene
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 16cc470288792004a9123c2bbd7d6405, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -469,7 +469,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 16cc470288792004a9123c2bbd7d6405, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 54a817788124d0548b2c3fef0209c8e0, type: 2}
+      objectReference: {fileID: 2100000, guid: e78b5fdd7fbd8e04fb7aaba3c6fc4871, type: 2}
     - target: {fileID: 2300002, guid: 16cc470288792004a9123c2bbd7d6405, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -514,7 +514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499527727}
   m_LocalRotation: {x: -0.4892952, y: -0.51048034, z: -0.51048034, w: 0.4892952}
-  m_LocalPosition: {x: -3.396785, y: 0.02826459, z: -4.0694184}
+  m_LocalPosition: {x: -3.396785, y: 0.001, z: -4.0694184}
   m_LocalScale: {x: 0.9999998, y: 1.2118711, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 3086137076267204413}
@@ -824,8 +824,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: -0.020529909, y: -0.9751994, z: 0.10156979, w: -0.19557148}
-  m_LocalPosition: {x: -78.376495, y: 13.237854, z: 27.16463}
+  m_LocalRotation: {x: -0.032034244, y: 0.96389693, z: 0.13651721, w: 0.22636159}
+  m_LocalPosition: {x: -79.94884, y: 3.970911, z: 18.421312}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1206,7 +1206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729801918}
   m_Layer: 0
-  m_Name: Light
+  m_Name: Billboard Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1227,7 +1227,7 @@ Transform:
   - {fileID: 1383231096}
   - {fileID: 577622275}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925705320
 GameObject:
@@ -2001,7 +2001,7 @@ GameObject:
   - component: {fileID: 1233520340}
   - component: {fileID: 1233520339}
   m_Layer: 0
-  m_Name: Point Light (3)
+  m_Name: Street Lamp 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2037,7 +2037,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2053,11 +2053,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233520338}
   m_LocalRotation: {x: 0.4892952, y: -0.51048034, z: 0.51048034, w: 0.4892952}
-  m_LocalPosition: {x: -65.86, y: 6.37, z: 0.79}
+  m_LocalPosition: {x: -65.86, y: 6.25, z: 0.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 92.428}
 --- !u!1 &1279557886
 GameObject:
@@ -2161,7 +2161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1324471369}
   m_Layer: 0
-  m_Name: Light (1)
+  m_Name: Billboard Light 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2182,7 +2182,7 @@ Transform:
   - {fileID: 724313827}
   - {fileID: 957449342}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1358479377
 GameObject:
@@ -2226,7 +2226,7 @@ Transform:
   - {fileID: 1625761963}
   - {fileID: 1134119931}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383020178
 GameObject:
@@ -2238,7 +2238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1383020179}
   m_Layer: 0
-  m_Name: Light (3)
+  m_Name: Billboard Light 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2259,7 +2259,7 @@ Transform:
   - {fileID: 1062052101}
   - {fileID: 1936820828}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383231095
 GameObject:
@@ -2454,7 +2454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464213936}
   m_Layer: 0
-  m_Name: Light (2)
+  m_Name: Billboard Light 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2475,7 +2475,7 @@ Transform:
   - {fileID: 1760339145}
   - {fileID: 1191997777}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1517136574
 GameObject:
@@ -2672,7 +2672,7 @@ GameObject:
   - component: {fileID: 1574944313}
   - component: {fileID: 1574944312}
   m_Layer: 0
-  m_Name: Point Light (1)
+  m_Name: Restaurant Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2726,7 +2726,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -48.68, y: 6.215, z: -1.559}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 294568209}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2940,7 +2941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753404003}
   m_LocalRotation: {x: 0.000000021850816, y: -0.021184985, z: 4.6302148e-10, w: 0.9997756}
-  m_LocalPosition: {x: -3.4020345, y: 0.632, z: -3.9662466}
+  m_LocalPosition: {x: -3.4020345, y: 0.60473543, z: -3.9662466}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_Children: []
   m_Father: {fileID: 3086137076267204413}
@@ -3364,7 +3365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3086137076267492113}
   m_LocalRotation: {x: 0.000000021850816, y: -0.021184985, z: 4.6302148e-10, w: 0.9997756}
-  m_LocalPosition: {x: -1.9191773, y: 0.632, z: -3.9662468}
+  m_LocalPosition: {x: -1.9191773, y: 0.609, z: -3.9662468}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3086137076267204413}
@@ -3406,7 +3407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3086137076267492123}
   m_LocalRotation: {x: -0.4892952, y: -0.51048034, z: -0.51048034, w: 0.4892952}
-  m_LocalPosition: {x: -1.9139278, y: 0.02826459, z: -4.069419}
+  m_LocalPosition: {x: -1.9139278, y: 0.005264554, z: -4.069419}
   m_LocalScale: {x: 1, y: 1.211871, z: 1}
   m_Children: []
   m_Father: {fileID: 3086137076267204413}
@@ -3526,7 +3527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3086137076267204413}
   m_Layer: 0
-  m_Name: Lights
+  m_Name: Street Lamps Prefabs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
